@@ -1,0 +1,182 @@
+header {
+	height: 80px;
+	background-color: #ecf0f1;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 1.6em;
+	line-height: 1.4em;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+h4 {
+	font-family: 'Indie Flower', cursive;
+	color: #000;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	color: #7f8c8d;
+	font-size: 0.2em;
+	line-height: 0.6em;
+	padding-top: 2em;
+	text-transform: uppercase;
+}
+
+.footer p {
+	color: #fff;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 0.8em;
+	line-height: 1em;
+	line-height: 1.4em;
+}
+
+.logo {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	margin-left: -120px;
+	margin-top: 14px;
+}
+
+.burger_menu {
+	position: absolute;
+	display: block;
+	top: 30px;
+	left: 40px;
+	cursor: pointer;
+}
+
+i.ion-navicon-round {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.hero_txt,
+.hero_img {
+	flex: 1;
+	max-width: 340px;
+	padding-top: 40px;
+}
+
+.hero_txt {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-title-rule {
+	border: 1px solid #fff;
+	width: 80px;
+	position: relative;
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+.hero {
+	background-color: #ecf0f1;
+	color: #fff;
+	height: 340px;
+}
+
+.about {
+	margin: 40px;
+}
+
+.black {
+	color: #000;
+}
+
+.about-title-rule {
+	border: 1px solid #000;
+	width: 40px;
+	margin-top: 20px;
+}
+
+.cursive {
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	color: #84bd93;
+}
+
+.profissional {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+}
+
+.profissional_avatar img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.profissional_descricao h4 {
+	margin-bottom: 10px;
+}
+
+.trabalho {
+	margin-bottom: 40px;
+}
+
+.trabalho_descricao h5 {
+	margin-top: 10px;
+}
+
+.missao {
+	background: #fe8c00; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #fe8c00 , #f83600); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.missao-rule {
+	border: 1px solid #fff;
+	width: 80px;
+	margin-bottom: 40px;
+}
+
+.missao h3 {
+	color: #fff;
+}
+
+.footer {
+	background-color: #000;
+	color: #fff;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-footer-rule {
+	border: 1px solid #ecf0f1;
+	width: 40px;
+	margin: 20px;
+}
