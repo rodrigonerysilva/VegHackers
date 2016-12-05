@@ -1,6 +1,9 @@
 header {
 	height: 80px;
 	background-color: #ecf0f1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 h1 {
@@ -44,19 +47,12 @@ p {
 	line-height: 1.6em;
 }
 
-.logo {
-	position: absolute;
-	left: 50%;
-	right: 50%;
-	margin-left: -120px;
-	margin-top: 14px;
+.tel {
+	margin-right: 30px;
 }
 
-.burger_menu {
-	position: absolute;
-	display: block;
-	top: 30px;
-	left: 40px;
+.burger_menu {	
+	margin-left: 40px;
 	cursor: pointer;
 }
 
