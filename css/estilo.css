@@ -65,9 +65,10 @@ p {
 	margin-top: 2px;
 }
 
-.burger_menu i {	
-	margin-left: 40px;
+.burger_menu {	
 	cursor: pointer;
+	margin-left: 40px;
+	font-size: 20px;
 }
 
 .logo {
@@ -76,11 +77,6 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-i.ion-navicon-round {
-	font-size: 20px;
-	cursor: pointer;
 }
 
 .flex-container {
@@ -160,6 +156,11 @@ i.ion-navicon-round {
 
 .trabalho {
 	margin-bottom: 40px;
+	transition: 0.2s;
+}
+
+.trabalho:hover {
+	opacity: 0.8;
 }
 
 .trabalho_descricao h5 {
