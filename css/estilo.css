@@ -1,9 +1,6 @@
 header {
 	height: 80px;
 	background-color: #ecf0f1;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 }
 
 h1 {
@@ -36,6 +33,17 @@ h5 {
 	text-transform: uppercase;
 }
 
+a {
+	text-decoration: none;
+}
+
+.menu-info {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	margin-top: -80px;
+}
+
 .footer p {
 	color: #fff;
 }
@@ -48,12 +56,26 @@ p {
 }
 
 .tel {
-	margin-right: 30px;
+	margin-right: 40px;
+	display: flex;
 }
 
-.burger_menu {	
+.tel i {
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.burger_menu i {	
 	margin-left: 40px;
 	cursor: pointer;
+}
+
+.logo {
+	position: relative;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 i.ion-navicon-round {
@@ -145,11 +167,8 @@ i.ion-navicon-round {
 }
 
 .missao {
-	background: #fe8c00;
-	background: -webkit-linear-gradient(to left, #fe8c00 , #f83600);
-	background: linear-gradient(to left, #fe8c00 , #f83600); 
+	background: #ecf0f1;
 	height: 300px;
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -162,15 +181,18 @@ i.ion-navicon-round {
 	margin-bottom: 40px;
 }
 
-.missao h3 {
-	color: #fff;
+.big {
+	font-size: 2em;
+	font-family: 'Indie Flower', cursive;
+	color: #84bd93;
 }
 
 .footer {
-	background-color: #000;
+	background: #485563;
+	background: -webkit-linear-gradient(to left, #485563 , #29323c);
+	background: linear-gradient(to left, #485563 , #29323c);
 	color: #fff;
 	height: 300px;
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -181,6 +203,10 @@ i.ion-navicon-round {
 	border: 1px solid #ecf0f1;
 	width: 40px;
 	margin: 20px;
+}
+
+.top-banner {
+	height: auto;
 }
 
 .titulo_trabalho {
@@ -201,4 +227,14 @@ i.ion-navicon-round {
 	justify-content: center;
 	text-align: left;
 	margin: 40px 0 40px 0 ;
+}
+
+.facebook_share {
+	height: 100px;
+	margin-bottom: 60px;
+	flex-direction: column;
+}
+
+.facebook_share h5 {
+	margin-bottom: 10px;
 }
