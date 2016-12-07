@@ -6,30 +6,30 @@ header {
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
-	font-size: 1.6em;
-	line-height: 1.4em;
+	font-size: 1.6rem;
+	line-height: 2rem;
 }
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
-	font-size: 1em;
-	line-height: 2em;
+	font-size: 1rem;
+	line-height: 2rem;
 }
 
 h4 {
 	font-family: 'Indie Flower', cursive;
 	color: #000;
-	font-size: 1.4em;
-	line-height: 1em;
+	font-size: 1.4rem;
+	line-height: 1rem;
 }
 
 h5 {
 	font-family: 'Montserrat', sans-serif;
 	color: #7f8c8d;
-	font-size: 0.2em;
-	line-height: 0.6em;
-	padding-top: 2em;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	padding: 1rem 0 1rem 0;
 	text-transform: uppercase;
 }
 
@@ -84,11 +84,8 @@ p {
 	justify-content: center;
 }
 
-.hero_txt,
-.hero_img {
-	flex: 1;
-	max-width: 340px;
-	padding-top: 40px;
+.hero_content {
+	padding-top: 2rem;
 }
 
 .hero_txt {
@@ -99,15 +96,13 @@ p {
 .hero-title-rule {
 	border: 1px solid #fff;
 	width: 80px;
-	position: relative;
-	margin-left: 0;
-	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .hero {
 	background-color: #ecf0f1;
 	color: #fff;
-	height: 340px;
+	padding-bottom: 1rem;
 }
 
 .about {
@@ -170,6 +165,9 @@ p {
 .missao {
 	background: #ecf0f1;
 	height: 300px;
+}
+
+.missao_content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
